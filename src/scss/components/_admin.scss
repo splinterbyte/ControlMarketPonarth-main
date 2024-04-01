@@ -1,0 +1,76 @@
+.root-adm {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.user-container {
+  margin-top: 30px;
+
+  h4 {
+    margin-left: 15px;
+  }
+}
+
+.switch {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.user-container__users {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.Baner{
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 135px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
+.Baner_2{
+
+  text-align: center;  
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  height: 100px;
+  background-color:#f6f6f6 ;
+  cursor: pointer;
+}
+.Baner_h1{
+  
+  padding-top: 15px;
+  font-size: 10px;
+color: #847777;
+}
+.img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.file{
+  display: none;
+}
